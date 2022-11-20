@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 150px;
+}
+.navbar{
+    display: flex;
+    height: 70px;
+    background-color: white;
+}
+.logo{
+    margin-left: 100px;
+}
+.nav_list ul{
+    list-style: none;
+}
+.nav_list li{
+    display: inline-block;
+    margin: 25px 20px;
+    font-size: 20px;
+}
+.nav_list a{
+    text-decoration: none;
+    color: black;
+}
+.nav_list a:hover{
+    color: rgb(62, 62, 219);
+}
+.launch{
+    margin-left: 370px;
+    margin-top: 15px;
+    width: 170px;
+    height: 40px;
+    background-color: #611f69;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.connect{
+    background-color: #f6efe8;
+    display: flex;
+    padding-bottom: 50px;
+}
+.col1{
+    flex-basis: 50%;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.col2{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.col1 span{
+    font-size: 15px;
+    font-weight: 700;
+}
+.col1 h1{
+    font-size: 55px;
+    margin: 10px 0;
+}
+.col1 p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+.learn{
+    background: #611f69;
+    width: 130px;
+    padding: 19px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    letter-spacing: 0.8px;
+}
+.upgrade{
+    color: #611f69;
+    border: 2px solid #611f69;
+    border-radius: 5px;
+    padding: 17px; 
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    margin-bottom: 15px;
+}
+.details{
+    font-weight: 500;
+    font-size: 15px;
+}
+.channel{
+    display: flex;
+    margin: 50px 100px;
+
+}
+.col3{
+    flex-basis: 50%;
+}
+.col4{
+    flex-basis: 50%;
+}
+.col3 video{
+    height: 500px;
+    margin-left: 15px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.col4 h1{
+    margin-top: 150px;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.col4 p{
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.col4 a{
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(63, 63, 219);
+}
+.share_connect{
+    display: flex;
+    margin: 70px 115px;
+}
+.col5{
+    flex-basis: 35%;
+}
+.col6{
+    flex-basis: 35%;
+}
+.col7{
+    flex-basis: 35%;
+}
+.share_connect a{
+    font-size: 20px;
+    color: rgb(63, 63, 219);
+}
+.share_connect p{
+    font-size: larger;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.companies{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.companies h1{
+    font-size: 50px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.companies a{
+    font-size: 20px;
+    color: rgb(63, 63, 219);
+    text-decoration: none;
+}
+.quote{
+    display: flex;
+    margin: 15px 100px 70px;
+}
+.col8{
+    flex-basis: 40%;
+}
+.col9{
+    flex-basis: 60%;
+}
+.col9 p{
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: start;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-style: italic;
+}
+.fox_logo{
+    position: absolute;
+    margin-left: -320px;
+}
+.col9 span{
+    position: absolute;
+    margin-left: -320px;
+    margin-top: 30px;
+}
+.logos{
+    justify-content: space-between;
+}
+.logos img{
+    height: 35px;
+    width: 150px;
+    margin: 20px 20px;
+}
+.work_faster{
+    text-align: center;
+    padding: 80px 0;
+}
+.work_faster h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.work_faster img{
+    width: 1000px;
+    margin-bottom: 30px;
+}
+.work_faster span{
+    color: rgb(66, 65, 65);
+    font-weight: 300;
+}
+.integration{
+    display: flex;
+    background-color: #f6efe8;
+    padding-top: 120px;
+}
+.text1{
+    flex-basis: 50%;
+    margin-left: 100px;
+}
+.img_integration{
+    flex-basis: 50%;
+    margin-top: -120px;
+}
+.text1 h1{
+    margin-left: 50px;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.text1 p{
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.text1 ul{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    list-style-type: disc;        /*Nu am stiut sa fac simbolul acela de pe site*/
+    line-height: 30px;
+}
+.text1 a{
+    margin-left: 50px;
+    font-size: larger;
+    font-weight: 550;
+    letter-spacing: 0.8px;
+    color: rgb(63, 63, 219);
+    text-decoration: none;
+}
+.enterprise{
+    background-color: #f6efe8;
+    display: flex;
+    padding-bottom: 100px;
+}
+.img_enterprise{
+    flex-basis: 50%;
+    margin-left: 270px;
+}
+.text2{
+    flex-basis: 50%;
+    margin-left: -50px;
+}
+.text2 h1{
+    font-size: 55px;
+    margin-top: 60px;
+}
+.text2 p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 15px 0;
+}
+.text2 ul{
+    margin-left: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.text2 a{
+    font-size: larger;
+    font-weight: 550;
+    letter-spacing: 0.8px;
+    color: rgb(63, 63, 219);
+    text-decoration: none;
+}
+.get_more{
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+.more{
+    margin-top: 50px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1, .card2, .card3{
+    flex-basis: 20%;
+    border: 0.5px solid #f6efe8;
+    height: 450px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 2px rgba(0,0,0,.1);
+}
+.card1 img{
+    align-items: center; 
+    margin-bottom: 10px;         /*Nu am reusit sa centrez imaginea*/
+}
+.card2 img{
+    align-items: center; 
+    margin-bottom: 10px;         
+}
+.card3 img{
+    align-items: center; 
+    margin-bottom: 10px;         
+}
+.card1 span{
+    padding-left: 5px;
+}
+.card2 span{
+    padding-left: 5px;
+}
+.card3 span{
+    padding-left: 5px;
+}
+.card1 h3{
+    padding: 15px 5px;
+    font-size: 27px;
+}
+.card2 h3{
+    padding: 15px 5px;           /*Nu mergeau setarile daca grupam card1, card2, card3*/
+    font-size: 27px;
+}
+.card3 h3{
+    padding: 15px 5px;
+    font-size: 27px;
+}
+.card1 a{
+    position: absolute;
+    margin-top: 110px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: rgb(62, 62, 219);
+}
+.card2 a{
+    position: absolute;
+    margin-top: 105px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: rgb(62, 62, 219);
+}
+.card3 a{
+    position: absolute;
+    margin-top: 45px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: rgb(62, 62, 219);
+}
+.resources{
+    margin-bottom: 150px;
+}
+.btn_resources{
+    position: absolute;
+    margin-left: 650px;
+    width: 250px;
+    height: 60px;
+    color: #611f69;
+    border: 1px solid #611f69;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.choose{
+    background-color: #4a154b;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.better_way{
+    text-align: center;
+    padding-top: 90px;
+}
+.better_way h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.btn_try{
+    width: 170px;
+    height: 50px;
+    color: #4a154b;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.btn_sales{
+    margin-left: 5px;
+    width: 190px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 170px 100px 580px;
+}
+.links p{
+    color: #454545;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+.links ul{
+    list-style: none;
+}
+.links li{
+    margin-bottom: 14px;
+}
+.links a{
+    text-decoration: none;
+    color: #696969;
+}
+.footer{
+    background-color: rgb(245, 240, 240);
+    height: 130px;
+}
+.privacy{
+    margin-left: 120px;
+}
+.privacy ul{
+    list-style: none;
+    padding: 30px 0 40px 0;
+}
+.privacy ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.privacy a{
+    text-decoration: none;
+    color: #454545;
+    font-size: 16px;
+    font-weight: 550;
+}
+.privacy a:hover{
+    color: rgb(34, 34, 182);
+}
+.copyright{
+    margin-left: 120px;
+}
